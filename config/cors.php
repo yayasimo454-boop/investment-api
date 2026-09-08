@@ -19,10 +19,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [
-        'http://localhost:4200',
-        'https://TON-FRONTEND.up.railway.app', // à corriger après l'étape 7
-    ],
+   'allowed_origins' => [
+    'http://localhost:4200',
+    'https://investment-web-production-d46b.up.railway.app',
+],
 
     'allowed_origins_patterns' => [],
 
