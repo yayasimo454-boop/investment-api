@@ -42,7 +42,7 @@ class RequestController extends Controller
 
         if ($totalBalance < self::MIN_BALANCE_FOR_WITHDRAWAL) {
             return response()->json([
-                'message' => 'Un solde global minimum de 5000 $ est requis pour effectuer un retrait.',
+                'message' => 'Le retrait est autorisé uniquement si l\'utilisateur a déjà effectué au moins un dépôt de 50 $.',
             ], 422);
         }
 
